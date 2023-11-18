@@ -1,0 +1,22 @@
+# NDM generation of a block
+
+# Tech file is read as input
+# Both LEF or NDM can be used as inputs
+# DBs need to be provided as inputs, they are created during extract_model (to generate the .db files) 
+# Used after chip_finish IF you want to generate DB files from FC/ICC2 ; It can also be generated from PT using same extract_model command
+
+set extract_model_lib_format_with_check_pins true
+set_pt_options -pt_exec /global/apps/pt_2022.03-SP5/bin/pt_shell -clib_flow
+extract_model -lib_name ${TOP_MODULE}.lib -etm_lib_work_dir pmu_etm
+
+
+# Successful check_workspace will lead to proper ndm creation
+
+create_workspace <TOP_MODULE> -scale_factor 4000 -flow normal -technology <TECH_FILE_PATH>
+read_lef <TOP_MODULE>.lef
+read_db   <DB_CORNER_1>.db
+read_db   <DB_CORNER_2>.db
+read_db   <DB_CORNER_3>.db
+set_app_options -name lib.workspace.allow_missing_related_pg_pins -value true
+check_workspace -allow_missing
+commit_workspace -force -output <TOP_MODULE>.ndm
