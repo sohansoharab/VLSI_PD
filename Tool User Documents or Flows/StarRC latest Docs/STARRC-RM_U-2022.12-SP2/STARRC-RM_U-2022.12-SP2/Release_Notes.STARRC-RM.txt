@@ -1,0 +1,92 @@
+####################################################################################
+# StarRC Reference Methodology Release Notes
+# Version: U-2022.12-SP2
+# Copyright (C) 1998-2022 Synopsys, Inc. All rights reserved. 
+####################################################################################
+U-2022.12-SP2
+* added technology nodes 3nm and below. and removed above 28nm
+* removed rm_in_lynx from StarRC RM package to align with other products.
+* put parasitic netlist into results directory
+
+S-2021.06
+=============
+Enabling Analysis Density Corner outside block 
+
+Q-2019.12-SP4
+=============
+Enabling Analysis with Virtual Metal Fill
+
+P-2019.03-SP4
+=============
+Enabling Analysis With Parasitic Explorer
+
+P-2019.03-SP2
+=============
+Improved GUI selection dependencies
+
+P-2019.03 
+=========
+This section describes new features, changes, and enhancements in the StarRC
+Reference Methodology version P-2019.03.
+
+Gate-Level Extraction Updates
+-----------------------------
+*  RDL Pushdown of top level data into block-level extraction
+*  Extraction settings for advanced nodes
+*  Updated In-Design features with zero spacing blockage ratio
+*  Metal fill statistics reporting
+*  Updates for RM-in-Lynx capability
+
+N-2017.12-SP2
+=========
+This section describes new features, changes, and enhancements in the StarRC
+Reference Methodology version N-2017.12-SP2.
+
+Gate-Level Extraction Updates
+-----------------------------
+*  Safety concern reports generation
+
+N-2017.12
+=========
+This section describes new features, changes, and enhancements in the StarRC
+Reference Methodology version N-2017.12.
+
+Gate-Level Extraction Updates
+-----------------------------
+*  IC Compiler II In-Design features
+
+M-2017.06
+=========
+
+This section describes new features, changes, and enhancements in the StarRC
+Reference Methodology version M-2017.06.
+
+Gate-Level Extraction Updates
+-----------------------------
+*  Database debug capabilities, including enhanced shorts reporting and visualization of database
+*  Incremental Engineering Change Order (ECO) extraction support
+
+Special Features
+----------------
+
+* Advanced inductance extraction of high-frequency clock nets in DSPF format for
+  simulation purposes
+
+M-2016.12
+=========
+
+This section describes new features, changes, and enhancements in the StarRC
+Reference Methodology version M-2016.12.
+
+Gate-Level Extraction Updates
+-----------------------------
+*  Galaxy Engineering Change Order (ECO) extraction support
+*  Hierarchical instance coupling extraction support
+
+Lynx Compatibility
+------------------
+
+This release provides enhancements in the Lynx-compatible reference
+methodology flow. For information about these enhancements, see the
+file named Release_Notes.LynxCompatible-RM.txt.
+

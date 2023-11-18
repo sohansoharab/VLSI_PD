@@ -1,0 +1,14 @@
+#!/bin/csh
+########################################################################
+# StarRC Reference Methodology Run Script                              #
+# Gate Level Flow                                                      #
+# Script: run_starrc                                                   #
+# Version: U-2022.12-SP2
+#  Copyright (C) 1998-2022 Synopsys, Inc. All rights reserved.                             #
+########################################################################
+
+# Before running the script, set the variable $STAR_PATH to the latest StarXtract executable location
+mkdir results reports
+set path=($STAR_PATH $path)
+StarXtract -clean ./rm_starrc_scripts/star_cmd_gate
+

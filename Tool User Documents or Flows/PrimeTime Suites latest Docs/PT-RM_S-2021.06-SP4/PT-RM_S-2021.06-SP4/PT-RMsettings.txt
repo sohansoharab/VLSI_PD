@@ -1,0 +1,54 @@
+##############################################################
+# Reference methodology option settings selected by the user.
+#
+# Copyright (C) 2023 Synopsys, Inc. All rights reserved.
+##############################################################
+ 
+Option Name:  Setting
+=====================
+Flow:  PT
+Back Annotation Mode:  SPEF
+HyperScale:  TRUE
+HyperScale:  TOP
+Shield Analysis:  TRUE
+CSS Waveform Propagation:  TRUE
+Compute Resource Efficient ECO:  TRUE
+Restore Session DMSA:  TRUE
+Distributed Multi-Scenario Mode:  TRUE
+Via Variation:  TRUE
+Multivoltage Scaling Mode:  TRUE
+UPF Mode:  TRUE
+Scaling or LPPI File:  SCALING
+Simultaneous Multivoltage Analysis:  FALSE
+Clock Gating and Threshold Voltage Group Reporting:  TRUE
+Power Analysis:  OFF
+Fix Max Transition:  TRUE
+Fix Max Capacitance:  TRUE
+Fix Max Fanout:  TRUE
+Fix Noise:  TRUE
+ECO Mode:  PHYSICAL
+Fix Setup:  SEQUENTIAL
+Fix Hold:  SEQUENTIAL
+Estimate Unfixable Reason:  TRUE
+Fix Power ECO:  TRUE
+Power-Analysis-driven Power Recovery:  FALSE
+Power Mode for Power-Analysis-driven Power Recovery:  TOTAL
+Fix DRC ECO:  TRUE
+Fix Timing ECO:  TRUE
+Fix Leakage ECO:  FALSE
+Constraint Analysis:  TRUE
+CRPR Mode Normal Same:  NORMAL
+Link to TetraMax:  FALSE
+Derate Mode Clock Early:  FALSE
+Derate Mode Clock Late:  FALSE
+Derate Mode Data Early:  FALSE
+Derate Mode Data Late:  FALSE
+OCV Mode:  POCV
+CRPR Mode:  TRUE
+Derate Mode:  TRUE
+Auto Clock Mux:  TRUE
+Save Session:  TRUE
+Timing Models:  GENERATION
+Path-Based Analysis:  TRUE
+Reports:  ENHANCED
+

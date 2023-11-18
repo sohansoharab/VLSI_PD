@@ -1,0 +1,40 @@
+##############################################################
+# Reference methodology option settings selected by the user.
+#
+# Copyright (C) 2023 Synopsys, Inc. All rights reserved.
+##############################################################
+ 
+Option Name:  Setting
+=====================
+Physical Input Database:  NDM
+Technology:  7NM_TO_3NM
+Double Patterning:  TRUE
+Distributed Processing:  TRUE
+Simultaneous Multicorner Extraction:  TRUE
+Density Outside Block Specify:  TRUE
+Incremental ECO Extraction:  FALSE
+Rapid3D Extraction:  FALSE
+Skip Macro Cell:  TRUE
+Skipped Macro Cell Additional Contents:  FALSE
+Push Down of Top Level Data:  FALSE
+Hierarchical Instance Coupling Extraction:  FALSE
+Extract Metal Fill:  TRUE
+Fill Database:  IN_DESIGN
+Reuse Metal Fill:  FALSE
+Metal Fill Statistics Reporting:  FALSE
+Extract Virtual Metal Fill:  FALSE
+Run Extraction With Virtual Metal Fill:  FALSE
+Enable RC Scaling:  FALSE
+Enable Virtual Shielding:  FALSE
+Enable Incomplete Nets Handling:  FALSE
+Zero Spacing Blockage Ratio:  FALSE
+Parasitic Explorer:  FALSE
+Enhanced Shorts Reporting:  TRUE
+Safety Concern Reporting:  FALSE
+Visualization of Database:  TRUE
+Non-critical Shorts Details:  FALSE
+Debug Output Database:  NDM
+Extract Clock Nets Inductance:  FALSE
+Coupled Netlist (Signal Integrity Analysis):  TRUE
+Netlist Format:  SPEF
+
